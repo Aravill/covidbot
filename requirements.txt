@@ -5,7 +5,6 @@ async-timeout==3.0.1
 attrs==19.3.0
 autopep8==1.5
 bauh==0.8.3
-btrfsutil==1.1.1
 CacheControl==0.12.6
 ceph-volume==1.0.0
 cephfs==2.0.0
