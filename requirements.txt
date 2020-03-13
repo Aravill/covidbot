@@ -19,6 +19,7 @@ cupshelpers==1.0
 discord.py==1.3.2
 distlib==0.3.0
 distro==1.4.0
+django-environ==0.4.5
 docopt==0.6.2
 html5lib==1.0.1
 idna==2.9

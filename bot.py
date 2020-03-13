@@ -1,8 +1,9 @@
+import environ
 from discord.ext.commands import Bot
 from discord import Game, Embed
 import requests
 
-TOKEN = "Njg4MDY5MzkyMTg1Mjk0ODk5.Xmu9pQ.0cjn7zq0TsI3GjW7qBWg7mlhjxg"
+
 PREFIX = "covid! "
 
 BASE_PATH = "https://corona.lmao.ninja"
@@ -10,6 +11,13 @@ ENDPOINTS = {
     "total": "/all",
     "countries": "/countries"
 }
+
+env = environ.Env(
+    DEBUG=(bool, False)
+)
+environ.Env.read_env()
+
+TOKEN = env("TOKEN")
 
 client = Bot(command_prefix=PREFIX)
 
