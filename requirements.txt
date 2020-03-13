@@ -6,7 +6,6 @@ attrs==19.3.0
 autopep8==1.5
 bauh==0.8.3
 CacheControl==0.12.6
-ceph-volume==1.0.0
 cephfs==2.0.0
 cephfs-shell==0.0.1
 chardet==3.0.4
