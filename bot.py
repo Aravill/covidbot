@@ -3,6 +3,7 @@ from discord.ext.commands import Bot
 from discord import Game, Embed
 import requests
 
+print("Initializing covidbot...")
 
 PREFIX = "covid! "
 
@@ -18,6 +19,8 @@ env = environ.Env(
 environ.Env.read_env()
 
 TOKEN = env("TOKEN")
+
+print("Environment config loaded, using TOKEN {0}".format(TOKEN))
 
 client = Bot(command_prefix=PREFIX)
 
