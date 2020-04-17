@@ -9,8 +9,8 @@ PREFIX = "covid! "
 
 BASE_PATH = "https://corona.lmao.ninja"
 ENDPOINTS = {
-    "total": "/all",
-    "countries": "/countries"
+    "total": "/v2/all",
+    "countries": "/v2/countries"
 }
 
 env = environ.Env(
